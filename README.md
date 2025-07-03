@@ -1,4 +1,4 @@
-# 🧠 nnCoroUNet: 冠脉分割拓扑增强网络
+# 🫀 nnCoroUNet: 冠脉分割拓扑增强网络
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c?logo=pytorch)](https://pytorch.org/)
 [![nnUNet](https://img.shields.io/badge/nnUNet-1.7.0-3b7ab0)](https://github.com/MIC-DKFZ/nnUNet)
 
