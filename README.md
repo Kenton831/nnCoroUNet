@@ -1,7 +1,7 @@
 # 🧠 nnCoroUNet: 冠脉分割拓扑增强网络
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c?logo=pytorch)](https://pytorch.org/)
 [![nnUNet](https://img.shields.io/badge/nnUNet-1.7.0-3b7ab0)](https://github.com/MIC-DKFZ/nnUNet)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 > **基于PyTorch与nnUNet框架的冠脉CTA图像分割网络，融合拓扑感知损失与动态数据增强，提升血管连通性与边界精度。**
 
