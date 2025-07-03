@@ -48,6 +48,9 @@
 
 #### 📕参考文献
 [1]Isensee, F.​​ et al. nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature Methods (2020).
+
 [2]Shit, S.​​ et al. clDice: A Novel Topology-Preserving Loss Function for Tubular Structure Segmentation. CVPR (2021).
+
 ​​[3]Li, X.​​ et al. Dynamic Snake Convolution based on Topological Geometric Constraints. MICCAI (2023).
+
 [4]​​Shit, S.​​ et al. soft-skeleton Implementation. GitHub (2021).
