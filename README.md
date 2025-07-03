@@ -7,11 +7,11 @@
 
 ---
 
-## 📖 项目概览
+## 🔍 项目概览
 `nnCoroUNet` 在 `nnUNet` 基础上针对**冠脉血管分割**任务进行增强设计：
-- **拓扑感知损失函数**：结合 `cl_dice_loss` 与 `auto_hd_loss`，优化血管连通性与边界准确性[2,4](@ref)
-- **动态数据增强**：集成 `clahe_transform` 模块，增强低对比度血管区域特征[3](@ref)
-- **中心线提取算法**：基于 `soft_skeleton` 实现3D血管骨架计算，支撑拓扑指标评估[4](@ref)
+- **拓扑感知损失函数**：结合 `cl_dice_loss` 与 `auto_hd_loss`，优化血管连通性与边界准确性[2,4]
+- **动态数据增强**：集成 `clahe_transform` 模块，增强低对比度血管区域特征[3]
+- **中心线提取算法**：基于 `soft_skeleton` 实现3D血管骨架计算，支撑拓扑指标评估[4]
 
 ---
 
@@ -43,3 +43,11 @@
 │   ├── soft_skeleton.py         # [4] 骨架提取算法
 ├── nnUNetCoronaryTrainer.py     # 训练器（基于nnUNet基础训练器修改）
 ```
+
+---
+
+#### 📕参考文献
+[1]Isensee, F.​​ et al. nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature Methods (2020).
+[2]Shit, S.​​ et al. clDice: A Novel Topology-Preserving Loss Function for Tubular Structure Segmentation. CVPR (2021).
+​​[3]Li, X.​​ et al. Dynamic Snake Convolution based on Topological Geometric Constraints. MICCAI (2023).
+[4]​​Shit, S.​​ et al. soft-skeleton Implementation. GitHub (2021).
