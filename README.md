@@ -30,8 +30,9 @@
 ```plaintext
 ├── 3d_diff_visualization.html      # 交互式分割结果可视化
 ├── augmented_results/              # 数据增强样例
-│   ├── case1_clahe.nii.gz          # CLAHE增强样本
-│   ├── case2_skel.nii.gz           # 骨架提取结果
+│   ├── heart_001_0000.nii_BrightnessMultiplicative.nii.gz          # 亮度乘性增强
+│   ├── heart_001_0000.nii_Contrast.nii.gz                          # 对比度增强
+│   ├── heart_001_0000.nii_GaussianBlur.nii.gz                      # 高斯模糊
 ├── src/
 │   ├── losses/                     
 │   │   ├── cl_dice_loss.py          # [2] clDice损失
@@ -40,4 +41,5 @@
 │   │   ├── clahe_transform.py       # CLAHE增强模块
 │   ├── utils/
 │   │   ├── soft_skeleton.py         # [4] 骨架提取算法
+│   ├── nnUNetCoronaryTrainer.py     # 训练器（基于nnUNet基础训练器修改）
 ```
