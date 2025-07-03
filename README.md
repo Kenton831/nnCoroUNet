@@ -33,13 +33,13 @@
 │   ├── heart_001_0000.nii_BrightnessMultiplicative.nii.gz          # 亮度乘性增强
 │   ├── heart_001_0000.nii_Contrast.nii.gz                          # 对比度增强
 │   ├── heart_001_0000.nii_GaussianBlur.nii.gz                      # 高斯模糊
-├── src/
-│   ├── losses/                     
-│   │   ├── cl_dice_loss.py          # [2] clDice损失
-│   │   ├── auto_hd_loss.py          # [3] 动态蛇形卷积损失
-│   ├── data_aug/ 
-│   │   ├── clahe_transform.py       # CLAHE增强模块
-│   ├── utils/
-│   │   ├── soft_skeleton.py         # [4] 骨架提取算法
-│   ├── nnUNetCoronaryTrainer.py     # 训练器（基于nnUNet基础训练器修改）
+
+├── losses/                     
+│   ├── cl_dice_loss.py          # [2] clDice损失
+│   ├── auto_hd_loss.py          # [3] 动态蛇形卷积损失
+├── data_aug/ 
+│   ├── clahe_transform.py       # CLAHE增强模块
+├── utils/
+│   ├── soft_skeleton.py         # [4] 骨架提取算法
+├── nnUNetCoronaryTrainer.py     # 训练器（基于nnUNet基础训练器修改）
 ```
